@@ -1,5 +1,27 @@
 # SmartPlug
-Autor: José Wadson Oliveira Silva - Engenheiro da Computação - Universidade Federal do Rio Grande do Norte - UFRN.
-Este projeto visa desenvolver uma tomada inteligente utilizando o NodeMCU1.0(ESP12-E) juntamente com um broker MQTT através de uma aplicação Web em PHP. Para tanto, utilizou a biblioteca phpMQTT (Source: http://github.com/bluerhinos/phpMQTT) bem como o CloudMQTT (https://www.cloudmqtt.com/).
-Utilizou-se ainda um sensor de corrente ACS712 a fim de se plotar na aplicação Web os gráficos de corrente e de potência. A aplicação conta ainda com a parte de agendamentos utilizando o FullCalendar (https://fullcalendar.io/) a fim de poder se fazer agendamentos do funcionamento da carga elétrica a que se está conectada à tomada inteligente.
-O sistema foi desenvolvido no ambiente Windows, Apache, Mysql, PHP - WAMP.
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
