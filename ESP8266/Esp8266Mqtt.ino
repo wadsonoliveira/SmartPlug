@@ -3,6 +3,7 @@
 #define DEBUG
 #define INTERVALO_ENVIO 1000
 
+//Dados de conexão com a rede WiFi e com o CloudMQTT
 const char* ssid = "Abmael&Raimunda"; 
 const char* password = "Natal.2019";
 const char* mqttServer = "m15.cloudmqtt.com"; 
