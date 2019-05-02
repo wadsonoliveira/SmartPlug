@@ -1,0 +1,15 @@
+<h1>Informações da Carga</h1>
+<p style="margin-top: 0;">Controle da carga e exibição gráfica em tempo real da potência e corrente.</p>
+<div fxLayout="row" fxLayoutAlign="flex-start center" class="box" style="border: 2px solid #eeeeee; border-radius: 3px; margin-bottom: 20px;">
+  <span fxFlex="calc(100% - 130px;)"> <span style="color: #b8b7b7;">A CARGA ESTÁ:</span> {{ isTurnedOn ? 'Ligada' : 'Desligada' }}</span>
+  <button mat-flat-button color="primary" style="padding: 10px 20px; width: 130px;">LIGAR</button>
+</div>
+
+<div fxLayout="row wrap" fxLayoutAlign="flex-start center" class="box" style="border: 2px solid #eeeeee; border-radius: 3px;">
+  <h2 fxFlex="100%" style="font-weight: 300; font-size: 20px; color: #444; margin-top: 0;">Potência/Corrente por Tempo</h2>
+  <ngx-charts-line-chart [results]="data" [animations]="true" [xAxis]="true" [yAxis]="true" fxFlex="100%"></ngx-charts-line-chart>
+</div>
+
+<!-- <h1>{{ title }}</h1>
+<button (click)="toggleLed()">Toggle LED</button>
+<p>{{ message }}</p> -->

@@ -1,3 +1,24 @@
-<h1>{{ title }}</h1>
-<p>{{ message }}</p>
-<router-outlet></router-outlet>
+<mat-drawer-container class="drawer-container">
+  <mat-drawer mode="side" opened>
+    <h1
+      style="margin-top: 20px; text-align: center; font-size: 18px; font-weight: 400; padding-bottom: 10px; border-bottom: 1px solid rgb(230, 230, 230); margin: 20px; margin-bottom: 0;"
+    >
+      <span style="font-weight: 500;">Smart</span>
+      <span>Plug</span>
+    </h1>
+    <mat-list>
+      <mat-list-item>
+        <button mat-button>Informações da Carga</button>
+      </mat-list-item>
+      <mat-list-item>
+        <button mat-button>Agendamento</button>
+      </mat-list-item>
+      <mat-list-item>
+        <button mat-button color="warn">Sair</button>
+      </mat-list-item>
+    </mat-list>
+  </mat-drawer>
+  <mat-drawer-content class="drawer-content"
+    ><router-outlet></router-outlet
+  ></mat-drawer-content>
+</mat-drawer-container>
